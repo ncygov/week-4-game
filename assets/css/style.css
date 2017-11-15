@@ -12,7 +12,6 @@ h1 {
 }
 
 h2 {
-	/*background: black;*/
 	color: red;
 	font-size:36px;
 	font-weight: bolder;
@@ -25,37 +24,31 @@ h2 {
 	color: lavender;
 	font-style: serif;
 	width: 50%;
+	background: black;
 
 }
-/*.crystals{
-	background: black;
-}*/
-
-/*div{
-	display: block;
-}*/
 
 #diamond{
 	width: 220px;
 	height: 220px;
-	background: #191970;
+	
 }
 
 #emerald{
 	width: 220px;
 	height: 220px;
-	background: #191970;
+	
 	
 }
 
 #ruby{
 	width: 220px;
 	height: 220px;
-	background: #191970;
+	
 }
 
 #purple{
 	width: 220px;
 	height: 220px;
-	background: #191970;
+	
 }
