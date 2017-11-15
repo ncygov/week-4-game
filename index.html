@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Game!</title>
+
+	<!-- Link to jQuery -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Link to CSS -->
+
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+      <!-- Link to .js -->
+
+     <script type= "text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+<!-- set up the header and rules for the game -->
+            <h1>Crystal Collector!</h1>
+        	
+        		<p id="instructions">
+        			You will be given a random number at the start of the game.
+        		<br>
+        		<br>
+        			There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        		<br>
+        		<br>
+        			You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+        		<br>
+        		<br>
+        			The value of each crystal is hidden from you until you click on it.
+        		<br>
+        		<br>
+        			Each time that the game starts, the game will change the value of each crystal.
+        		</p>
+        
+            <!-- set up for function in js your totals for var -->
+            <h2 class="total">Number To Reach: </h2> 
+            <h2 class="addition">Your Total: </h2>
+            <h2 class="yourWins">Wins: </h2>
+            <h2 class="yourLosses">Losses: <h2>
+            <!-- set up images with click and id for function in js -->
+        <div class="crystals">
+            <img src="http://indusbusinessjournal.com/wp-content/uploads/2016/07/Diamond.png" class="click" id="diamond">
+            <img src="https://pre00.deviantart.net/bc50/th/pre/i/2012/339/9/e/png_emerald_by_moonglowlilly-d5n4srp.png" class="click" id="emerald">
+            <img src="http://pngimg.com/uploads/ruby/ruby_PNG31.png" class="click" id="ruby">
+            <img src="http://www.beadsfactory.com/media/catalog/product/cache/1/small_image/208x171/9df78eab33525d08d6e5fb8d27136e95/4/3/4327_fuch.png" class="click" id="purple">
+        </div>
+
+    </div>
+<!-- </div>
+ --></body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	background-image: url("../images/rainbowdiamond.jpeg"); 
+
+}
+
+h1 {
+	color: aqua;
+	font-size: 56px;
+	font-weight: bolder;
+	width: 100%;
+	margin: auto;
+}
+
+h2 {
+	/*background: black;*/
+	color: red;
+	font-size:36px;
+	font-weight: bolder;
+	width: 100%;
+	margin: auto;
+}
+
+#instructions {
+	font-size: 16px;
+	color: lavender;
+	font-style: serif;
+	width: 50%;
+
+}
+/*.crystals{
+	background: black;
+}*/
+
+/*div{
+	display: block;
+}*/
+
+#diamond{
+	width: 220px;
+	height: 220px;
+	background: #191970;
+}
+
+#emerald{
+	width: 220px;
+	height: 220px;
+	background: #191970;
+	
+}
+
+#ruby{
+	width: 220px;
+	height: 220px;
+	background: #191970;
+}
+
+#purple{
+	width: 220px;
+	height: 220px;
+	background: #191970;
+}
